@@ -1,0 +1,232 @@
+{
+    "repositories": [
+        {
+            "id": "a808c362-f180-433b-a513-a69ad985673d",
+            "name": "Me as owner and favorite",
+            "description": "Me as owner and favorite - description",
+            "favorite": true,
+            "users": [
+                {"email":"me@mail.com", "role":"owner"},
+                {"email":"c.d@mail.com", "role":"modeler"}
+            ],
+            "versions": [
+                {
+                    "id": "d8e8e7e9-0a7e-4e9b-8e4a-4e7d6c5b3a2f",
+                    "uploader": "me@mail.com",
+                    "uploadTime": "2014-03-12T13:37:27+00:00",
+                    "version": "1"
+                },
+                {
+                    "id": "e6f6e5e7-1a6e-4eab-9e5a-5e7d6c5b3a2f",
+                    "uploader": "me@mail.com",
+                    "uploadTime": "2014-03-12T13:37:28+00:00",
+                    "version": "2"
+                },
+                {
+                    "id": "f4e4f3e5-2a4e-4eac-9e4d-3e7d6c5b3a2f",
+                    "uploader": "c.d@mail.com",
+                    "uploadTime": "2014-03-12T13:37:29+00:00",
+                    "version": "3"
+                }
+            ]
+        },
+        {
+            "id": "b67d0d7b-6269-4aec-bc0f-e72b7bb010ac",
+            "name": "Me as owner not favorite",
+            "description": "Me as owner not favorite - description",
+            "favorite": false,
+            "users": [
+                {"email":"me@mail.com", "role":"owner"},
+                {"email":"e.f@mail.com", "role":"modeler"}
+            ],
+            "versions": [
+                {
+                    "id": "d8e8e7e9-0a7e-4e9b-8e4a-4e7d6c5b3a2f",
+                    "uploader": "me@mail.com",
+                    "uploadTime": "2014-03-12T13:37:27+00:00",
+                    "version": "1"
+                },
+                {
+                    "id": "e6f6e5e7-1a6e-4eab-9e5a-5e7d6c5b3a2f",
+                    "uploader": "e.f@mail.com",
+                    "uploadTime": "2014-03-12T13:37:28+00:00",
+                    "version": "2"
+                }
+            ]
+        },
+        {
+            "id": "537578d2-62ee-4d4c-97d6-233f93bb2a67",
+            "name": "Me as modeler",
+            "description": "Me as modeler - description",
+            "favorite": true,
+            "users": [
+                {"email":"a.b@mail.com", "role":"owner"},
+                {"email":"me@mail.com", "role":"modeler"}
+            ],
+            "versions": [
+                {
+                    "id": "d8e8e7e9-0a7e-4e9b-8e4a-4e7d6c5b3a2f",
+                    "uploader": "a.b@mail.com",
+                    "uploadTime": "2014-03-12T13:37:27+00:00",
+                    "version": "1"
+                },
+                {
+                    "id": "e6f6e5e7-1a6e-4eab-9e5a-5e7d6c5b3a2f",
+                    "uploader": "me@mail.com",
+                    "uploadTime": "2014-03-12T13:37:28+00:00",
+                    "version": "2"
+                }
+            ]
+        },
+        {
+            "id": "6fd439e2-7dc3-498d-8836-f472dd1be786",
+            "name": "Me none but still can see",
+            "description": "Me none but still can see - description",
+            "favorite": false,
+            "users": [
+                {"email":"a.b@mail.com", "role":"owner"},
+                {"email":"c.d@mail.com", "role":"modeler"}
+            ],
+            "versions": [
+                {
+                    "id": "d8e8e7e9-0a7e-4e9b-8e4a-4e7d6c5b3a2f",
+                    "uploader": "a.b@mail.com",
+                    "uploadTime": "2014-03-12T13:37:27+00:00",
+                    "version": "1"
+                },
+                {
+                    "id": "e6f6e5e7-1a6e-4eab-9e5a-5e7d6c5b3a2f",
+                    "uploader": "c.d@mail.com",
+                    "uploadTime": "2014-03-12T13:37:28+00:00",
+                    "version": "2"
+                },
+                {
+                    "id": "f4e4f3e5-2a4e-4eac-9e4d-3e7d6c5b3a2f",
+                    "uploader": "me@mail.com",
+                    "uploadTime": "2014-03-12T13:37:29+00:00",
+                    "version": "3"
+                },
+                {
+                    "id": "f5e5f4e6-3a5e-4ead-9e5c-2e7d6c5b3a2f",
+                    "uploader": "me@mail.com",
+                    "uploadTime": "2014-03-12T13:37:30+00:00",
+                    "version": "4"
+                }
+            ]
+        },
+        {
+            "id": "12345678-1234-1234-1234-123456789012",
+            "name": "New Repository 1",
+            "description": "New Repository 1 - description",
+            "favorite": true,
+            "users": [
+                {"email":"a.b@mail.com", "role":"owner"},
+                {"email":"c.d@mail.com", "role":"modeler"}
+            ],
+            "versions": [
+                {
+                    "id": "12345678-1234-1234-1234-123456789012",
+                    "uploader": "a.b@mail.com",
+                    "uploadTime": "2022-01-01T00:00:00+00:00",
+                    "version": "1"
+                }
+            ]
+        },
+        {
+            "id": "23456789-2345-2345-2345-234567890123",
+            "name": "New Repository 2",
+            "description": "New Repository 2 - description",
+            "favorite": false,
+            "users": [
+                {"email":"e.f@mail.com", "role":"owner"},
+                {"email":"g.h@mail.com", "role":"modeler"}
+            ],
+            "versions": [
+                {
+                    "id": "23456789-2345-2345-2345-234567890123",
+                    "uploader": "e.f@mail.com",
+                    "uploadTime": "2022-01-01T00:00:00+00:00",
+                    "version": "1"
+                },
+                {
+                    "id": "34567890-3456-3456-3456-345678901234",
+                    "uploader": "g.h@mail.com",
+                    "uploadTime": "2022-01-01T00:00:01+00:00",
+                    "version": "2"
+                }
+            ]
+        },
+        {
+            "id": "34567890-3456-3456-3456-345678901234",
+            "name": "New Repository 3",
+            "description": "New Repository 3 - description",
+            "favorite": true,
+            "users": [
+                {"email":"i.j@mail.com", "role":"owner"},
+                {"email":"k.l@mail.com", "role":"modeler"}
+            ],
+            "versions": [
+                {
+                    "id": "34567890-3456-3456-3456-345678901234",
+                    "uploader": "i.j@mail.com",
+                    "uploadTime": "2022-01-01T00:00:00+00:00",
+                    "version": "1"
+                },
+                {
+                    "id": "45678901-4567-4567-4567-456789012345",
+                    "uploader": "k.l@mail.com",
+                    "uploadTime": "2022-01-01T00:00:01+00:00",
+                    "version": "2"
+                }
+            ]
+        },
+        {
+            "id": "45678901-4567-4567-4567-456789012345",
+            "name": "New Repository 4",
+            "description": "New Repository 4 - description",
+            "favorite": false,
+            "users": [
+                {"email":"m.n@mail.com", "role":"owner"},
+                {"email":"o.p@mail.com", "role":"modeler"}
+            ],
+            "versions": [
+                {
+                    "id": "45678901-4567-4567-4567-456789012345",
+                    "uploader": "m.n@mail.com",
+                    "uploadTime": "2022-01-01T00:00:00+00:00",
+                    "version": "1"
+                },
+                {
+                    "id": "56789012-5678-5678-5678-567890123456",
+                    "uploader": "o.p@mail.com",
+                    "uploadTime": "2022-01-01T00:00:01+00:00",
+                    "version": "2"
+                }
+            ]
+        },
+        {
+            "id": "56789012-5678-5678-5678-567890123456",
+            "name": "New Repository 5",
+            "description": "New Repository 5 - description",
+            "favorite": true,
+            "users": [
+                {"email":"q.r@mail.com", "role":"owner"},
+                {"email":"s.t@mail.com", "role":"modeler"}
+            ],
+            "versions": [
+                {
+                    "id": "56789012-5678-5678-5678-567890123456",
+                    "uploader": "q.r@mail.com",
+                    "uploadTime": "2022-01-01T00:00:00+00:00",
+                    "version": "1"
+                },
+                {
+                    "id": "67890123-6789-6789-6789-678901234567",
+                    "uploader": "s.t@mail.com",
+                    "uploadTime": "2022-01-01T00:00:01+00:00",
+                    "version": "2"
+                }
+            ]
+        }
+    ]
+}
